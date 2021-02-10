@@ -1,0 +1,36 @@
+ul li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+ul li img {
+    height: 30px;
+    width: 30px;
+    fill: #fff;
+}
+
+section {
+    height: 500%;
+}
+
+nav {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+    align-items: center;
+    height: 200px;
+}
+
+nav ul {
+    border-radius: 5px;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+}
+
+ul {
+    background: linear-gradient(to bottom, #8a8a8a , #686868 50%, #595959 50%, #757575 100%);
+}
